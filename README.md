@@ -2,15 +2,11 @@
 
 This analysis provides an exhaustive synthesis of the analytical steps, dataset treatment, and multidimensional trends uncovered from the historical database of **86,234 Philippine candidate records** spanning election years **2004 to 2016**.
 
----
-
 ### 1. Data Cleaning & Integrity Actions
 Prior to performing the analysis, the dataset underwent strict preprocessing to ensure reporting accuracy:
 * **Standardization**: All text features (`party`, `region`, `province`, `locality`, `position`) were stripped of leading/trailing whitespaces and converted to uniform uppercase format.
 * **Handling Missing Data**: Missing values within the `locality` column (representing approximately **32%** of the dataset) were standardly classified as `PROVINCIAL LEVEL/NOT SPECIFIED` to prevent omission bias during spatial profiling.
 * **De-duplication**: The dataset was verified to have no exact duplicate rows, confirming a clean, high-fidelity relational schema.
-
----
 
 ### 2. Structural & Distributional Insights
 
@@ -25,8 +21,6 @@ Local governance positions form the vast majority of the electoral field, indica
 Electoral competitiveness is concentrated in key geographic corridors:
 * **High-Volume Centers**: **Region VIII (Eastern Visayas)** and **Region IV-A (Calabarzon)** lead candidate listings with **7,438** and **7,411** records respectively.
 * **Low-Volume Centers**: **National Capital Region (NCR)** exhibits the lowest total count with only **1,627** records, reflecting concentrated city-level districts compared to sprawling municipal structures in rural regions.
-
----
 
 ### 3. Deep-Dive Political Dynamics & Trends
 
