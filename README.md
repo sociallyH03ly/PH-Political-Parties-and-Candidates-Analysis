@@ -1,4 +1,4 @@
-## Philippines' Political Parties and Candidates Analysis Report
+## Philippines' Political Parties and Candidates Analysis
 
 This analysis provides an exhaustive synthesis of the analytical steps, dataset treatment, and multidimensional trends uncovered from the historical database of **86,234 Philippine candidate records** spanning election years **2004 to 2016**.
 
